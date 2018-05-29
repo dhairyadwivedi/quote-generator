@@ -3,3 +3,6 @@ $(document).ready(function() {
   var randomNum = Math.random() * 100000;
   var randomWhl = Math.floor(randomNum);
  	var randomURL = url + randomWhl;
+ $("#generate").on("click", function(){
+    	$.getJSON(randomURL, function (json){
+      		$(".text").html(JSON.stringify(json.quoteText));
