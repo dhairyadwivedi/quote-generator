@@ -6,3 +6,11 @@ $(document).ready(function() {
  $("#generate").on("click", function(){
     	$.getJSON(randomURL, function (json){
       		$(".text").html(JSON.stringify(json.quoteText));
+    
+ var author = json.quoteAuthor;
+    
+    if(author){  
+  		var newAuthor = author.replace(/"/i, "");
+  	} else {
+     	newAuthor = "Unknown"
+     } 
