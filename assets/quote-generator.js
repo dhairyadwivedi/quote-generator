@@ -14,3 +14,8 @@ $(document).ready(function() {
   	} else {
      	newAuthor = "Unknown"
      } 
+     $(".author").html("-" + " " + newAuthor); 
+      	var tweetUrl = "https://twitter.com/intent/tweet?text="
+      	var newArr = [];
+      	var str1 = json.quoteText;
+     	var splitStr = str1.split(" ");
