@@ -19,3 +19,7 @@ $(document).ready(function() {
       	var newArr = [];
       	var str1 = json.quoteText;
      	var splitStr = str1.split(" ");
+      var x = splitStr.length - 1;
+     	for(var i = 0; i < (splitStr.length - 1); i++) {
+    		newArr.push(splitStr[i] + "%20");
+    	}
