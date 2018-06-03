@@ -23,3 +23,5 @@ $(document).ready(function() {
      	for(var i = 0; i < (splitStr.length - 1); i++) {
     		newArr.push(splitStr[i] + "%20");
     	}
+     newArr.push(splitStr[x]);
+      	var newStr = newArr.join("")
