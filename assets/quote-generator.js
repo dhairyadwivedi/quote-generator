@@ -24,4 +24,10 @@ $(document).ready(function() {
     		newArr.push(splitStr[i] + "%20");
     	}
      newArr.push(splitStr[x]);
-      	var newStr = newArr.join("")
+      	var newStr = newArr.join("");
+      var newUrl = tweetUrl + newStr;
+  		$("#tweetlink").attr("href", newUrl);
+    });
+  })
+});
+
