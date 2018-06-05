@@ -1,0 +1,42 @@
+body{
+	background-color: #2a3132;
+}
+#container{
+	margin: 0 auto;
+	margin-top: 5%;
+	width: 50%;
+	color: white;
+	font-weight: bold;
+	background-color: #f0810f;
+}
+i{
+	color: white;
+}
+button{
+	font-color: white;
+}
+#buttonRow{
+	margin-top: 100px;
+}
+#generate{
+	float: right;
+}
+.author{
+	float: right;
+}
+.text{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+}
+.author{
+	font-family: 'Open Sans', sans-serif;
+	padding-right: 20px;
+	font-size: 20px;
+}
+h1{
+	font-family: 'Lato', sans-serif;
+	color: white;
+	text-align: center;
+	padding-top: 7%;
+	font-size: 7.0em;
+}
